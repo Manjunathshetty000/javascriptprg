@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="color">
+        <option value="blue" onselect="backgroundChange()">blue</option>
+        <option value="green" onselect="backgroundChange()">green</option>
+        <option value="red" onselect="backgroundChange()">red</option>
+    </select>
+<button onclick="backgroundChange()">Change Background</button>
+    <div id="fetch">
+
+    </div>
+    <button onclick="fetched()">fetch Data</button>
+    <button onclick="randomId()">Generate id</button>
+    <h1 id="id"></h1>
+    <br>
+        <label for="">Email ID</label>
+        <input type="email" id="email" ><br>
+        <span></span><br>
+
+        <label for="">Password</label>
+        <input type="password" id="pass">
+        <button onClick="addlocal()">add local</button>
+        <button onClick="getlocal()">get local</button>
+        <button onClick="clearlocal()">clear local</button>
+        <p id="e"></p>
+        <p id="p"></p>
+        <span></span><br>
+        <hr>
+        <table border="2px">
+            <thead>
+               <tr>
+                <td>user id</td>
+                <td>id</td>
+                <td>body</td>
+                <td>title</td>
+               </tr>
+            </thead>
+            <tbody id="tablebody">
+               
+            </tbody>
+        </table>
+
+       
+    <script src="./javascript.js"></script>
+</body>
+</html>
